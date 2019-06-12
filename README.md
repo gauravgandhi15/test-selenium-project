@@ -6,3 +6,6 @@ Windows - follow steps here - https://confluence.atlassian.com/conf59/setting-th
 4. Download git project and unzip in your drive
 5. Open command prompt and go to project root directory, run command mvn eclipse:eclipse
 6. Import project in your eclispe 
+7. Run test:
+   1. Right click on testng suite xml file > Run As > testng suite.
+   2. Command line - mvn install, mvn test.
